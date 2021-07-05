@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tutorial01 = (): JSX.Element => {
+const Tutorial01: React.FC = () => {
   return (
     <div>
       <h2 className="title">선택자</h2>
