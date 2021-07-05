@@ -19,7 +19,7 @@ import Component from "./index";
 beforeEach(() => render(<Component />)); // test마다 JSX.Element를 render 합니다.
 afterEach(cleanup); // test마다 cleanup
 
-describe("01. 선택자", () => {
+describe("01. Selector", () => {
   test("getByText", () => {
     const GetByTextEl = screen.getByText(/선택자/i);
     expect(GetByTextEl).toBeInTheDocument(); // 해당 Element가 Document에 존재여부
